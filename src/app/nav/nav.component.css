@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(35, 164, 207);
+    box-shadow: 10px 5px 5px black;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 13px;
+  }
+  
+  .routes{
+    position: absolute;
+    right: 0px;
+  }
+  .active{
+    color: rgb(14, 1, 1);
+  }
+  
+  li {
+    text-align: right;
+    margin-left: 20px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  p{
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  
